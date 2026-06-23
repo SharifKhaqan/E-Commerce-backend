@@ -19,7 +19,7 @@ const createCheckoutSession = async (req, res) => {
       quantity: Number(item.quantity),
     }));
 
-    const clientUrl = process.env.CLIENT_URL || process.env.FRONTEND_URL || "http://localhost:5173";
+    const clientUrl = process.env.CLIENT_URL;
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
