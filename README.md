@@ -7,10 +7,10 @@ This is the backend for a full-stack E-Commerce project built with Node.js, Expr
 ## How to Run This Project
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/your-backend-repo.git
+git clone https://github.com/SharifKhaqan/E-Commerce-backend.git
 
 ### 2. Go to project folder
-cd your-backend-repo
+cd backend-repo
 
 ### 3. Install dependencies
 npm install
