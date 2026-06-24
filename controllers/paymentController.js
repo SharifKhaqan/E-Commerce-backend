@@ -28,8 +28,8 @@ const createCheckoutSession = async (req, res) => {
       metadata: {
         orderId: orderId || "",
       },
-      success_url: `${clientUrl}/?payment=success`,
-      cancel_url: `${clientUrl}/?payment=cancelled`,
+      success_url: `${clientUrl}/home?payment=success`,
+      cancel_url: `${clientUrl}/home?payment=cancelled`,
     });
 
     res.json({ url: session.url });
